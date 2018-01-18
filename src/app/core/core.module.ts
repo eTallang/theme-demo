@@ -10,6 +10,9 @@ import { ThemeService } from './services/theme.service';
   ],
   providers: [
     ThemeService
+  ],
+  exports: [
+    CommonModule
   ]
 })
 export class CoreModule { }

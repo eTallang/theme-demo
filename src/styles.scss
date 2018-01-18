@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import '~@angular/material/theming';
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 @include mat-core();
 
 $my-primary: mat-palette($mat-indigo);

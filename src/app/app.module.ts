@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
-import { MatToolbarModule } from '@angular/material';
+import { MatButtonModule, MatInputModule, MatSidenavModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { ShellModule } from './shell/shell.module';
 
 
 @NgModule({
@@ -11,7 +12,10 @@ import { CoreModule } from './core/core.module';
   ],
   imports: [
     CoreModule,
-    MatToolbarModule
+    MatButtonModule,
+    MatInputModule,
+    MatSidenavModule,
+    ShellModule
   ],
   providers: [],
   bootstrap: [AppComponent]

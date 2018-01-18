@@ -1,5 +1,3 @@
-<mat-toolbar>
-  <mat-toolbar-row>
-    <h1>Theme Demo</h1>
-  </mat-toolbar-row>
-</mat-toolbar>
+<div class="body" [ngClass]="{'dark-theme': isDarkTheme | async}">
+  <td-shell class="mat-app-background"></td-shell>
+</div>
