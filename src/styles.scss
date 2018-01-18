@@ -1,23 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 @import '~@angular/material/theming';
 
 html, body {
     margin: 0;
     height: 100%;
+    color: rgba(0, 0, 0, .87);
 }
 
 @include mat-core();
 
 $my-primary: mat-palette($mat-indigo);
-$my-accent:  mat-palette($mat-pink, A200, A100, A400);
+$my-accent:  mat-palette($mat-amber, A200, A100, A400);
 $my-warn:    mat-palette($mat-red);
 $my-theme: mat-light-theme($my-primary, $my-accent, $my-warn);
 
-// Default theme
 @include angular-material-theme($my-theme);
 
 // Optional dark theme
 .dark-theme {
-    $my-dark-theme: mat-dark-theme($my-primary, $my-accent, $my-warn);
+    color: rgba(255, 255, 255, .87);
+    $my-dark-primary: mat-palette($mat-cyan);
+    $my-dark-accent:  mat-palette($mat-teal, A200, A100, A400);
+    $my-dark-warn:    mat-palette($mat-red);
+    $my-dark-theme: mat-dark-theme($my-dark-primary, $my-dark-accent, $my-dark-warn);
+    
     @include angular-material-theme($my-dark-theme);
 }

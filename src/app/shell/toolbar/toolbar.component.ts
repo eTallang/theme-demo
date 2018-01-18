@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
+
 import { ThemeService } from '../../core/services/theme.service';
 
 @Component({
@@ -7,7 +8,6 @@ import { ThemeService } from '../../core/services/theme.service';
   styleUrls: ['./toolbar.component.scss']
 })
 export class ToolbarComponent {
-
   constructor(private themeService: ThemeService) { }
 
   toggleDarkTheme(checked: boolean) {

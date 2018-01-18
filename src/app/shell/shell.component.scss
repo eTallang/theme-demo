@@ -4,3 +4,16 @@ td-toolbar {
     @include mat-elevation(2);
     display: block;
 }
+
+.content {
+    margin: 4rem;
+    display: flex;
+}
+
+aside {
+    flex: 1;
+}
+
+td-dashboard {
+    flex: 4;
+}
