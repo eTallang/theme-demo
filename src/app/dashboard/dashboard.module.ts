@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MatButtonModule, MatInputModule, MatIconModule } from '@angular/material';
 
 import { DashboardComponent } from './dashboard.component';
+import { TileComponent } from './tile/tile.component';
 
 @NgModule({
   imports: [
@@ -11,7 +12,7 @@ import { DashboardComponent } from './dashboard.component';
     MatInputModule,
     MatIconModule
   ],
-  declarations: [ DashboardComponent ],
+  declarations: [ DashboardComponent, TileComponent ],
   exports: [ DashboardComponent ]
 })
 export class DashboardModule { }

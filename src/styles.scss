@@ -10,7 +10,7 @@ html, body {
 @include mat-core();
 
 $my-primary: mat-palette($mat-indigo);
-$my-accent:  mat-palette($mat-amber, A200, A100, A400);
+$my-accent:  mat-palette($mat-pink, 200, A100, A400);
 $my-warn:    mat-palette($mat-red);
 $my-theme: mat-light-theme($my-primary, $my-accent, $my-warn);
 
@@ -19,10 +19,10 @@ $my-theme: mat-light-theme($my-primary, $my-accent, $my-warn);
 // Optional dark theme
 .dark-theme {
     color: rgba(255, 255, 255, .87);
-    $my-dark-primary: mat-palette($mat-cyan);
-    $my-dark-accent:  mat-palette($mat-teal, A200, A100, A400);
-    $my-dark-warn:    mat-palette($mat-red);
-    $my-dark-theme: mat-dark-theme($my-dark-primary, $my-dark-accent, $my-dark-warn);
+    $my-primary: mat-palette($mat-cyan);
+    $my-accent:  mat-palette($mat-teal, A200, A100, A400);
+    $my-warn:    mat-palette($mat-red);
+    $my-theme: mat-dark-theme($my-primary, $my-accent, $my-warn);
     
-    @include angular-material-theme($my-dark-theme);
+    @include angular-material-theme($my-theme);
 }

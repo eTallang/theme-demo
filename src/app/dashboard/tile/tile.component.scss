@@ -1,0 +1,19 @@
+@import '~@angular/material/theming';
+@import '../../../styles.scss';
+
+.tile {
+    @include mat-elevation(2);
+    background-color: mat-color($my-accent);
+    border: 2rem solid white;
+    padding: 2rem;
+    min-height: 200px;
+    min-width: 200px;
+    
+    p {
+        margin: 1rem 0;
+        color: white;
+        font-family: 'Arial Black';
+        line-height: 2.4rem;
+        font-size: 2.4rem;
+    }
+}

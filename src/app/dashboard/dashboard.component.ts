@@ -6,7 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit {
-
+  tiles: string[] = [
+    'Hi there!',
+    'I\'m a tile',
+    'Toggle the dark theme!',
+    'Theme Demo',
+    'Lorem Ipsium'
+  ];
   constructor() { }
 
   ngOnInit() {
