@@ -4,6 +4,7 @@
     <mat-icon>menu</mat-icon>
   </button>
 </header>
+<mat-slide-toggle [checked]="isDarkTheme | async" (change)="toggleDarkTheme($event.checked)">Dark theme</mat-slide-toggle>
 <div class="flex-content">
   <td-tile *ngFor="let tile of tiles">{{ tile }}</td-tile>
 </div>
