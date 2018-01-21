@@ -6,7 +6,7 @@ td-toolbar {
 }
 
 .content {
-    margin: 4rem;
+    margin: 4rem 6px;
     display: flex;
 }
 
@@ -17,3 +17,9 @@ aside {
 td-dashboard {
     flex: 5;
 }
+
+@media only screen and (max-width: 600px)  {
+    aside {
+      flex: 0;
+    }
+  }
