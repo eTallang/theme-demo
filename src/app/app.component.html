@@ -1,3 +1,10 @@
-<div class="body" [ngClass]="{'dark-theme': isDarkTheme | async}">
-  <td-shell class="mat-app-background"></td-shell>
+<div [ngClass]="{'dark-theme': isDarkTheme | async}">
+  <div class="mat-app-background">
+    <td-toolbar></td-toolbar>
+    <div class="content mat-typography">
+      <aside></aside>
+      <td-dashboard></td-dashboard>
+      <aside></aside>
+    </div>
+  </div>
 </div>

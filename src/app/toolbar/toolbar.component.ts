@@ -1,6 +1,6 @@
 import { Component, Output } from '@angular/core';
 
-import { ThemeService } from '../../core/services/theme.service';
+import { ThemeService } from '../core/services/theme.service';
 
 @Component({
   selector: 'td-toolbar',

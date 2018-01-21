@@ -9,9 +9,12 @@ export class DashboardComponent implements OnInit {
   tiles: string[] = [
     'Hi there!',
     'I\'m a tile',
-    'Toggle the dark theme!',
-    'Theme Demo',
-    'Lorem Ipsium'
+    'Toggle the dark theme',
+    'This background is the accent color',
+    'The borders have card background color',
+    'The font is \'Pacifico\'',
+    'The tile list scrolls vertically',
+    'This is the last tile'
   ];
   constructor() { }
 

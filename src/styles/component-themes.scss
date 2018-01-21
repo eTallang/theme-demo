@@ -1,4 +1,4 @@
-@import '../dashboard/tile/tile.component';
+@import '../app/dashboard/tile/tile.component';
 
 @mixin component-themes($theme) {
   @include tile-theme($theme);

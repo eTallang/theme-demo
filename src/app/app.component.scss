@@ -1,8 +1,19 @@
-td-shell {
+@import '~@angular/material/theming';
+
+td-toolbar {
+    @include mat-elevation(2);
     display: block;
-    height: 100%;
 }
 
-.body {
-    height: 100%;
+.content {
+    margin: 4rem;
+    display: flex;
+}
+
+aside {
+    flex: 1;
+}
+
+td-dashboard {
+    flex: 5;
 }
