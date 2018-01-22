@@ -14,8 +14,8 @@ $theme: mat-light-theme($primary, $accent, $warn);
 // Optional dark theme
 .dark-theme {
   color: $light-primary-text;
-  $dark-primary: mat-palette($mat-cyan);
-  $dark-accent:  mat-palette($mat-teal, A400, A100, A400);
+  $dark-primary: mat-palette($mat-yellow);
+  $dark-accent:  mat-palette($mat-orange, A400, A100, A700);
   $dark-warn:    mat-palette($mat-red);
   $dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
   
