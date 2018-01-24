@@ -12,7 +12,7 @@ export class DashboardComponent implements OnInit {
   isDarkTheme: Observable<boolean>;
   tiles: string[] = [
     'Hi there!',
-    'I\'m a tile',
+    'I\'m a custom component',
     'Toggle the dark theme',
     'This background is the accent color',
     'The borders have card background color',
