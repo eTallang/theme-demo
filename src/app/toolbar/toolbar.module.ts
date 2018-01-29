@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { MatToolbarModule, MatSlideToggleModule } from '@angular/material';
+import { MatToolbarModule, MatSlideToggleModule, MatButtonModule } from '@angular/material';
 import { CommonModule } from '@angular/common';
 import { ToolbarComponent } from './toolbar.component';
 
@@ -7,7 +7,8 @@ import { ToolbarComponent } from './toolbar.component';
   imports: [
     CommonModule,
     MatToolbarModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatButtonModule
   ],
   declarations: [ ToolbarComponent ],
   exports: [ ToolbarComponent ]
