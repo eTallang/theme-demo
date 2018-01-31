@@ -1,6 +1,9 @@
 <mat-toolbar color="primary">
   <mat-toolbar-row>
     <h1>Theme Demo</h1>
-    <mat-slide-toggle [checked]="isDarkTheme | async" labelPosition="before" (change)="toggleDarkTheme($event.checked)">Dark theme</mat-slide-toggle>
+    <div>
+      <a mat-button href="https://github.com/eTallang/theme-demo">Github</a>
+      <mat-slide-toggle [checked]="isDarkTheme | async" labelPosition="before" (change)="toggleDarkTheme($event.checked)">Dark theme</mat-slide-toggle>
+    </div>
   </mat-toolbar-row>
 </mat-toolbar>
