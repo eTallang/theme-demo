@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { ThemeService } from '../core/services/theme.service';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'td-toolbar',
