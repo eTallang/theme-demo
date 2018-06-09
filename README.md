@@ -1,6 +1,6 @@
 # ThemeDemo
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.4.
+This is a demo on how to manage dynamic themes in Angular, using a shared ThemeService to handle the theme state. A working demo can be seen [here](https://tallang-theme-demo.firebaseapp.com).
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
 
